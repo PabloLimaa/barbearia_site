@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="./assets/All/estilos.css">
 </head>
 
-<body>
+<body class="bg-black text-bg-dark">
   <nav class="navbar navbar-expand-md bg-black navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
@@ -26,13 +26,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link menu-link" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="servicos.html">Serviços</a>
+            <a class="nav-link menu-link" href="#">Serviços</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="localizacao.html">Localização</a>
+            <a class="nav-link menu-link active" href="localizacao.html">Localização</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -63,36 +63,37 @@
         aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
+      
       <div class="carousel-item active">
-        <img class="w-100 img-fluid d-md-none" src="./assets/Mobile/mobile - salao.png"
+        <!-- mobile -->
+        <img class="w-100 img-fluid d-md-none" src="./assets/Mobile/mobile - globo.png"
           alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilás.">
-        <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="./assets/Tablet/tablet - salao.png"
+        <!-- tablet -->
+        <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="./assets/Tablet/tablet - globo.png"
           alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilás.">
-        <img class="w-100 img-fluid d-none d-xl-block" src="./assets/Desktop/desk- salao.png"
+        <!-- desktop -->
+        <img class="w-100 img-fluid d-none d-xl-block" src="./assets/Desktop/desk - globo.png"
           alt="Modelo feminina vestindo blusa rosa fluorescente, em fundo lilás.">
-      </div>
-      <div class="carousel-item">
-        <img class="w-100 img-fluid d-md-none" src="./assets/Mobile/mobile - cabelo.png"
-          alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa.">
-        <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="./assets/Tablet/tablet - cabelo.png"
-          alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa.">
-        <img class="w-100 img-fluid d-none d-xl-block" src="./assets/Desktop/desk - cabelo.png"
-          alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa.">
         <div class="carousel-caption">
-          <h5 class="fs-1">Corte Cabelo</h5>
-          <p class="fs-4">Estilo e qualidade para durar.</p>
+          <p class="fs-4">O seu destino encontra-se bem próximo</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img class="w-100 img-fluid d-md-none" src="./assets/Mobile/mobile - barba.png"
+        <img class="w-100 img-fluid d-md-none" src="./assets/Mobile/mobile - negro.png"
           alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa.">
-        <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="./assets/Tablet/tablet - barba.png"
+        <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="./assets/Tablet/tablet - negro.png"
           alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa.">
-        <img class="w-100 img-fluid d-none d-xl-block" src="./assets/Desktop/desk - barba.png"
+        <img class="w-100 img-fluid d-none d-xl-block" src="./assets/Desktop/desk - negro.png"
+          alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa.">
+      </div>
+      <div class="carousel-item">
+        <img class="w-100 img-fluid d-md-none" src="./assets/Mobile/mobile - loja.png"
+          alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa.">
+        <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="./assets/Tablet/tablet - loja.png"
+          alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa.">
+        <img class="w-100 img-fluid d-none d-xl-block" src="./assets/Desktop/desk - loja.png"
           alt="Modelo feminina utilizando óculos escuros e vestindo conjunto esportivo de blusa e calça na cor preta, sentada em um sofá preto em um fundo rosa.">
         <div class="carousel-caption">
-          <h5 class="fs-1">Corte Barba</h5>
-          <p class="fs-4">Refinamento atemporal, qualidade inigualável!</p>
         </div>
       </div>
     </div>
@@ -106,49 +107,48 @@
     </button>
   </div>
 
-  <h2 class="text-center my-3 my-xl-5">Rua Senador Vergueiro, 93, Loja 6 - / Rio de Janeiro, Flamengo, Rio de Janeiro, RJ - 22230-000</h2>
+  <div class="px-3 pt-3 bg-black">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3674.387552135125!2d-43.17764015965483!3d-22.935950039001604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f87fc1a6313%3A0x12c12fbbfb5b7987!2sR.%20Sen.%20Vergueiro%2C%2093%20-%20Flamengo%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022230-000!5e0!3m2!1spt-BR!2sbr!4v1705009744507!5m2!1spt-BR!2sbr" 
+      width="100%" 
+      height="370" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
 
-  <iframe
-    title="Google Maps" 
-    aria-label="Google Maps" 
-    data-src="" 
-    width="100%" 
-    height="100%" 
-    frameborder="0" 
-    scrolling="no" 
-    allowfullscreen=""
-    
-    src="https://www.google.com/maps/embed/v1/place?q=PLACE_ID_OR_ADDRESS&key=SUA_CHAVE_DA_API"
-    allowfullscreen>
-  </iframe>
+    <h2 class="w-100 img-fluid d-md-none text-left py-1 my-2 mb-2 bg-dark text-offwhite" ><img class="pe-1" src="./assets/All/pin.png" alt="" width="50px">Barbearia CutCouture</h2>
+    <h2 class="w-100 img-fluid d-none d-md-block text-center py-1 my-2 mb-2 bg-dark text-offwhite" ><img class="pe-1" src="./assets/All/pin.png" alt="" width="50px">Barbearia CutCouture</h2>
+    <div class="row mb-1 mx-auto g-4 bg-dark text-offwhite">
+        <!--para celulares Mobile-->
+        <p class="w-100 img-fluid d-md-none text-left card-text">
+          Rua Senador Vergueiro, 93, Loja 6 - / Rio de Janeiro, Flamengo, Rio de Janeiro, RJ - 22230-000<br>
+          <img class="pe-1" src="./assets/All/telefone.png" alt="" width="50px">Cel: 21 982977362<br>
+          <img class="pe-1" src="./assets/All/mensagem.png" alt="" width="50px">barbeariacutcouture@gmail.com<br>
+        </p>
 
-  <a  href="">
-    <img width="100%" alt="Ver no mapa" src="./assets/All/mapa.png">
-  </a>
-
-  <div class="container row mx-auto g-4">
-
-    <div class="col-6 col-md-4 col-xxl-2">
-        <div class="card rounded-0 border-0">
-          <img class="d-md-none d-block" src="./assets/Mobile/categorias/categoria-camiseta.png"
-            alt="Camiseta masculina de manga na cor verde, com bolso, com detalhe vermelho.">
-          <img class="d-none d-md-block d-xl-none" src="./assets/Tablet/categorias/categoria-camiseta.png"
-            alt="Camiseta masculina de manga na cor verde, com bolso, com detalhe vermelho.">
-          <img class="d-none d-xl-block" src="./assets/Desktop/categorias/categoria-camiseta.png"
-            alt="Camiseta masculina de manga na cor verde, com bolso, com detalhe vermelho.">
-          <div class="card-header bg-black text-bg-dark">
-            <p class="text-center card-text">
-              Camisetas
-            </p>
-        </div>
-      </div>
-    </div>
+        <!--para celulares tablet-->
+        <p class="w-100 img-fluid d-none d-md-block text-center card-text">
+          Rua Senador Vergueiro, 93, Loja 6 - / Rio de Janeiro, Flamengo, Rio de Janeiro, RJ - 22230-000<br>
+          <img class="pe-1" src="./assets/All/telefone.png" alt="" width="50px">Cel: 21 982977362<br>
+          <img class="pe-1" src="./assets/All/mensagem.png" alt="" width="50px">barbeariacutcouture@gmail.com<br>
+        </p>
+        
+        <!--para celulares PC-->
+        <!-- <p class="w-100 img-fluid d-none d-xl-block text-center card-text">
+          Rua Senador Vergueiro, 93, Loja 6 - / Rio de Janeiro, Flamengo, Rio de Janeiro, RJ - 22230-000<br>
+          <img class="pe-1" src="./assets/All/telefone.png" alt="" width="50px">Cel: 21 982977362<br>
+          <img class="pe-1" src="./assets/All/mensagem.png" alt="" width="50px">barbeariacutcouture@gmail.com<br>
+        </p> -->
+        
+    </div> 
   </div>
 
-  <h2 class="container text-center my-3 my-xl-5">Produtos que estão bombando!</h2>
+  <h2 class="container text-center my-3 my-xl-5">Nosso time de sucesso!</h2>
 
   <div class="container row mx-auto">
-
+    <!-- card barbeiro(a) -->
     <div class="col-12 col-md-6 col-xxl-4 pb-4">
       <div class="card">
         <img class="d-block d-md-none" src="./assets/Mobile/produtos/camiseta.png"
@@ -157,17 +157,53 @@
           alt="Modelo masculo vestindo touca preta, blusa marrom e calça jeans, com uma parede cinza de fundo.">
         <img class="d-none d-xl-block" src="./assets/Desktop/produtos/camiseta.png"
           alt="Modelo masculo vestindo touca preta, blusa marrom e calça jeans, com uma parede cinza de fundo.">
-        <div class="card-body">
-          <h5 class="card-title fw-bold">Camiseta conforto</h5>
-          <p class="card-text">Multicores e tamanhos. Tecido de algodão 100% fresquinho para o verão. Modelagem
-            unissex.
+        <div class="text-bg-dark card-body">
+          <h5 class="card-title fw-bold">Barbeiro(a) Sereno</h5>
+          <p class="card-text">
+            Seu talento técnico é impressionante, sempre entregando cortes impecáveis que atendem perfeitamente às preferências.
           </p>
-          <p class="fw-bold">R$70,00</p>
-          <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais</a>
+          <a href="#" class="btn btn-outline-light btn-lg botao-lilas rounded-0 border-0">Agendar</a>
         </div>
       </div>
     </div>
 
+    <!-- card barbeiro(a) -->
+    <div class="col-12 col-md-6 col-xxl-4 pb-4">
+      <div class="card">
+        <img class="d-block d-md-none" src="./assets/Mobile/produtos/camiseta.png"
+          alt="Modelo masculo vestindo touca preta, blusa marrom e calça jeans, com uma parede cinza de fundo.">
+        <img class="d-none d-md-block d-xl-none" src="./assets/Tablet/produtos/camiseta.png"
+          alt="Modelo masculo vestindo touca preta, blusa marrom e calça jeans, com uma parede cinza de fundo.">
+        <img class="d-none d-xl-block" src="./assets/Desktop/produtos/camiseta.png"
+          alt="Modelo masculo vestindo touca preta, blusa marrom e calça jeans, com uma parede cinza de fundo.">
+        <div class="text-bg-dark card-body">
+          <h5 class="card-title fw-bold">Barbeiro(a) Sereno</h5>
+          <p class="card-text">
+            Seu talento técnico é impressionante, sempre entregando cortes impecáveis que atendem perfeitamente às preferências.
+          </p>
+          <a href="#" class="btn btn-outline-light btn-lg botao-lilas rounded-0 border-0">Agendar</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- card barbeiro(a) -->
+    <div class="col-12 col-md-6 col-xxl-4 pb-4">
+      <div class="card">
+        <img class="d-block d-md-none" src="./assets/Mobile/produtos/camiseta.png"
+          alt="Modelo masculo vestindo touca preta, blusa marrom e calça jeans, com uma parede cinza de fundo.">
+        <img class="d-none d-md-block d-xl-none" src="./assets/Tablet/produtos/camiseta.png"
+          alt="Modelo masculo vestindo touca preta, blusa marrom e calça jeans, com uma parede cinza de fundo.">
+        <img class="d-none d-xl-block" src="./assets/Desktop/produtos/camiseta.png"
+          alt="Modelo masculo vestindo touca preta, blusa marrom e calça jeans, com uma parede cinza de fundo.">
+        <div class="text-bg-dark card-body">
+          <h5 class="card-title fw-bold">Barbeiro(a) Sereno</h5>
+          <p class="card-text">
+            Seu talento técnico é impressionante, sempre entregando cortes impecáveis que atendem perfeitamente às preferências.
+          </p>
+          <a href="#" class="btn btn-outline-light btn-lg botao-lilas rounded-0 border-0">Agendar</a>
+        </div>
+      </div>
+    </div>
   </div>
 
   <section class="pb-4 bg-black text-bg-dark">
@@ -204,11 +240,11 @@
     <div class="input-group my-3">
       <input type="email" class="form-control border-secondary rounded-0" placeholder="Digite seu e-mail"
         aria-label="Digite seu e-mail" aria-describedby="button-addon2" />
-      <button type="button" class="btn btn-primary botao-lilas rounded-0 border-0 " id="button-addon2">Enviar</button>
+      <button type="button" class="btn btn-outline-light btn-lg botao-lilas rounded-0 border-0 " id="button-addon2">Enviar</button>
     </div>
   </form>
 
-  <footer class="text-center bg-black text-bg-dark">
+  <footer class="text-center bg-dark text-offwhite">
     <p class="card-text py-3">Site desenvolvido por Pablo Lima |  <i class="bi bi-c-circle"></i> 2024</p>
   </footer>
 

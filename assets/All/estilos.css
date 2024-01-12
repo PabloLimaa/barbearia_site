@@ -1,8 +1,13 @@
 
+:root {
+    --cor01: #a00d0d; /* Defina a variável para a cor desejada (vermelho neste exemplo) */
+    --cor02: #f8f8f8;
+}
+
+
 body {
     font-family: 'Bell MT', serif;
 }
-
 
 .texto-menor {
     font-size: 13px;
@@ -17,11 +22,20 @@ body {
 }
 
 .botao-lilas {
-    background-color: #9353FF;
+    background-color: var(--cor01);
 }
 
 .verde-limao {
-    color: #DAFF01;
+    color: var(--cor01);
+}
+
+.menu-link {
+    color: var(--cor02);
+}
+
+.menu-link:hover,
+.menu-link:active {
+    color: var(--cor01);
 }
 
 @media(min-width: 768px) {
